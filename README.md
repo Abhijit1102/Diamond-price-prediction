@@ -13,6 +13,16 @@ The following dependencies are required to run the diamond price prediction mode
 - NumPy 1.21.1
 - Pandas 1.3.1
 
+# Project Structure
+Project Structure is made in such a manner that in order make automation.
+
+1. `artifacts`: Here we will store preprocesses data, model pickle file, different pickle - file w.r.t Feature Engineering and data preprocessing pipline etc.
+2. `Notebook` : having jupyterfile of EDA, Featureb Engineering, data for modeling.
+3. `src`: having entire project machine learning modulus. 
+           - `Pipline` : Here two major pipline Training and prediction.
+         - `Training Pipline`: It is composed of various components such as 'Data ingestion` (Reading data from Sources), Data Transformation, Model trainier(trained with  different model, Model Evaluation.
+         - `Prediction pipline` : 
+
 # Model Deployment
 The diamond price prediction model can be deployed using Flask, a lightweight Python web framework. To deploy the model, follow these steps:
 
@@ -27,9 +37,11 @@ To maintain the diamond price prediction model, the following tasks should be pe
 - Update the training dataset with new data to improve the model's accuracy.
 - Monitor the model's performance to identify any issues or anomalies.
 - Update the dependencies as needed to ensure compatibility and security.
+
 # Conclusion
 The diamond price prediction model is a powerful tool for predicting the price of diamonds based on their features. By following the steps outlined in this readme, you can deploy and use the model in your own applications.
 
+# 
 
 
 
