@@ -19,9 +19,9 @@ Project Structure is made in such a manner that in order make automation.
 1. `artifacts`: Here we will store preprocesses data, model pickle file, different pickle - file w.r.t Feature Engineering and data preprocessing pipline etc.
 2. `Notebook` : having jupyterfile of EDA, Featureb Engineering, data for modeling.
 3. `src`: having entire project machine learning modulus. 
-           - `Pipline` : Here two major pipline Training and prediction.
+    - `Pipline` : Here two major pipline Training and prediction.
          - `Training Pipline`: It is composed of various components such as 'Data ingestion` (Reading data from Sources), Data Transformation, Model trainier(trained with  different model, Model Evaluation.
-         - `Prediction pipline` : 
+         - `Prediction pipline` : It will take input data from client side and give predict from model to client side.
 
 # Model Deployment
 The diamond price prediction model can be deployed using Flask, a lightweight Python web framework. To deploy the model, follow these steps:
